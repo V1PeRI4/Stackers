@@ -6,7 +6,7 @@ using namespace std;
 struct Stack {
     int info;
     Stack* next;
-} *beginStack, * endStack;
+} *beginStack;
 
 
 Stack* InStack(Stack* p, int in) {
